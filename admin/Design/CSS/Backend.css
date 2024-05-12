@@ -1,0 +1,49 @@
+/* .login {
+    width: 300px;
+    margin: 100px auto;
+}
+.login input {
+    margin-bottom: 10px;
+
+}
+.login .form-control {
+    background-color:#e5e5e5;
+}
+
+.login .bt {
+    background-color: #008dde;
+}
+.login .text-center {
+    color: #008dde;
+}
+body {
+    background-color: #008dde;
+    font-size: 16px;
+} */
+.categories .cat{
+    overflow: hidden;
+}
+.categories .cat:hover{
+    background-color: #EEE;
+}
+.categories .cat:hover .hidden-buttons{
+    right: 10px;
+}
+.categories .cat .hidden-buttons{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+
+}
+.categories .ordering a{
+    color: orange;
+    text-decoration: none;
+}
+.categories .ordering .active{
+    color: #888;
+    text-decoration: none;
+}
+.categories .panel-default .panel-body .cat h3{
+    cursor: pointer;
+}
